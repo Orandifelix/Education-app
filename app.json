@@ -1,8 +1,9 @@
 {
   "expo": {
     "name": "education-app",
-    "slug": "education-app",
+    "slug": "codebox",
     "version": "1.0.0",
+    "scheme" : "codebox",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,13 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-        
       },
       "package": "com.orandifelix.codebox"
-
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5e6e536f-4cdf-442f-bfb1-7c441dee44f9"
+      }
     }
   }
 }
